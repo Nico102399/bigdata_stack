@@ -20,6 +20,10 @@ def calcular_total(datos, con_iva=True):
         total += calcular_iva(total)
     return total
 
+def aplicar_descuento(total, descuento=0.1):
+    """Aplica un descuento al total."""
+    return total * (1 - descuento)
+
 if __name__ == "__main__":
     datos = extraer_datos()
     total = calcular_total(datos)
