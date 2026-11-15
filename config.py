@@ -1,3 +1,3 @@
 DB_HOST = 'localhost'
 DB_PORT = 5432
-DB_NAME = 'ventas'
+DB_NAME = 'gastos'
